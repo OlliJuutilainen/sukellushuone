@@ -1,18 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Deepdivenation</title>
+    <title>deep divinations, Deepdivenation</title>
     <link>https://www.dropbox.com</link>
-    <description>Deep divinations, a Deepdive Nation</description>
+    <description>Deep divinations inside a deepdive Nation</description>
     <language>en</language>
-
     <item>
-      <title>deep divinations and deepdive nation</title>
-      <description>Let's dive deep deep deep</description>
-      <enclosure url="https://www.dropbox.com/scl/fi/6xljlkj5zsq8gmit1r6uk/Stoicism_Skepticism_and_the_Unhappy_Consciousness.m4a?rlkey=9yppeiacp6zskul47g5amnpxs&amp;st=iqncwmtw&amp;dl=1" length="0" type="audio/mp4"/>
-      <guid>ohjelma-001</guid>
-      <pubDate>Wed, 11 Mar 2026 12:00:00 +0000</pubDate>
+      <title>Stoicism, Skepticism and the Unhappy Consciousness</title>
+      <description>Stoicism, Skepticism and the Unhappy Consciousness</description>
+      <enclosure url="https://www.dropbox.com/scl/fi/6xljlkj5zsq8gmit1r6uk/Stoicism_Skepticism_and_the_Unhappy_Consciousness.m4a?rlkey=9yppeiacp6zskul47g5amnpxs&amp;amp;dl=1" length="0" type="audio/mp4"/>
+      <guid>jakso-001</guid>
     </item>
-
+    <item>
+      <title>Esa puhuu</title>
+      <description>Esa puhuu</description>
+      <enclosure url="https://www.dropbox.com/scl/fi/bx4jf6qn43hsc1bui10uq/Esa-Saarinen-kakalla-k-ymisest.mp3?rlkey=kb1esgw5svz8vii0m1khylcjy&amp;amp;dl=1" length="0" type="audio/mpeg"/>
+      <guid>jakso-002</guid>
+    </item>
   </channel>
 </rss>
