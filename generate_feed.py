@@ -30,4 +30,8 @@ for i, (title, url) in enumerate(items, 1):
     enc.set("length", "0")
     enc.set("type", mime)
     ET.SubElement(item, "guid").text = f"jakso-{i:03d}"
-xml_str = minidom.parseString(ET.tostring(rss, encoding="unicode")).toprettyxml(indent="
+xml_str = minidom.parseString(ET.tostring(rss, encoding="unicode")).toprettyxml(indent="  ")
+xml_str = "\n".join(xml_str.split("\n")[1:])
+with open("feed.xml", "w", encoding="utf-8") as f:
+    f.write(xml_str)
+print("feed.xml generoitu.")
