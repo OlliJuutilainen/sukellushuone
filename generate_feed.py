@@ -22,10 +22,7 @@ ET.SubElement(channel, "language").text = "en"
 
 for i, (title, url) in enumerate(items, 1):
     ext = url.split("?")[0].split(".")[-1].lower()
-    mime = "audio/mp4" if ext in ("m4a", "mp4") else "audio/mpeg"
-    url = url.replace("dl=0", "dl=1")
-    item = ET.SubElement(channel, "item")
-    ET.SubElement(item, "pubDate").text = formatdate()
+    mime = "audio/mpeg4-generic" if ext in ("m4a", "mp4") else "audio/mpeg3" if ext == "mp3" else "audio/mpeg"
     ET.SubElement(item, "title").text = title
     ET.SubElement(item, "description").text = title
     enc = ET.SubElement(item, "enclosure")
