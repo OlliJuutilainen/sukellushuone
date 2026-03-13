@@ -5,32 +5,39 @@
     <description>Deep divinations inside a deepdive Nation</description>
     <language>en</language>
     <item>
-      <pubDate>Fri, 13 Mar 2026 11:11:18 -0000</pubDate>
+      <pubDate>Fri, 13 Mar 2026 12:21:37 -0000</pubDate>
       <title>Stoicism, Skepticism and the Unhappy Consciousness</title>
       <description>Stoicism, Skepticism and the Unhappy Consciousness</description>
       <enclosure url="https://www.dropbox.com/scl/fi/6xljlkj5zsq8gmit1r6uk/Stoicism_Skepticism_and_the_Unhappy_Consciousness.m4a?rlkey=9yppeiacp6zskul47g5amnpxs&amp;dl=1" length="0" type="audio/mpeg"/>
-      <guid>jakso-001</guid>
+      <guid>stoicism,-skepticism-and-the-unhappy-consciousness</guid>
     </item>
     <item>
-      <pubDate>Fri, 13 Mar 2026 11:11:18 -0000</pubDate>
+      <pubDate>Fri, 13 Mar 2026 12:21:37 -0000</pubDate>
       <title>Klaumi nilkiä</title>
       <description>Klaumi nilkiä</description>
       <enclosure url="https://www.dropbox.com/scl/fi/l4pfzane3k4fhoraj7w2b/vesiskootteri.mp3?rlkey=ot22vkf45vrs7o13f1ux343l9&amp;dl=1" length="0" type="audio/mpeg"/>
-      <guid>jakso-002</guid>
+      <guid>klaumi-nilkiä</guid>
     </item>
     <item>
-      <pubDate>Fri, 13 Mar 2026 11:35:00 -0000</pubDate>
+      <pubDate>Fri, 13 Mar 2026 12:21:37 -0000</pubDate>
       <title>Esa puhuiui</title>
       <description>Esa puhuiui</description>
       <enclosure url="https://www.dropbox.com/scl/fi/bx4jf6qn43hsc1bui10uq/Esa-Saarinen-puhe.mp3?rlkey=kb1esgw5svz8vii0m1khylcjy&amp;dl=1" length="0" type="audio/mpeg"/>
-      <guid>jakso-003</guid>
+      <guid>esa-puhuiui</guid>
     </item>
     <item>
-      <pubDate>Fri, 13 Mar 2026 11:40:22 -0000</pubDate>
+      <pubDate>Fri, 13 Mar 2026 12:21:37 -0000</pubDate>
       <title>Ne myös päästö</title>
       <description>Ne myös päästö</description>
       <enclosure url="https://www.dropbox.com/scl/fi/cvthbgig9yj5n7dduhkzu/nemy-sp-st.mp3?rlkey=c3shoirlojs8tssqtbpqhtuz0&amp;dl=1" length="0" type="audio/mpeg"/>
-      <guid>jakso-004</guid>
+      <guid>ne-myös-päästö</guid>
+    </item>
+    <item>
+      <pubDate>Fri, 13 Mar 2026 12:21:37 -0000</pubDate>
+      <title>Inwoodin Stoah</title>
+      <description>Inwoodin Stoah</description>
+      <enclosure url="https://www.dropbox.com/scl/fi/xz3prc2rzqgw6riy56yxq/The_Agony_of_Hegel-s_Unhappy_Consciousness.m4a?rlkey=81tnxiqggkdpzrvhx56c21v09&amp;dl=1" length="0" type="audio/mpeg"/>
+      <guid>inwoodin-stoah</guid>
     </item>
   </channel>
 </rss>
