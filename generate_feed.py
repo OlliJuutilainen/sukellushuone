@@ -1,3 +1,4 @@
+from email.utils import formatdate
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
@@ -25,6 +26,7 @@ for i, (title, url) in enumerate(items, 1):
     url = url.replace("dl=0", "dl=1")
     url = url.replace("&", "&amp;")
     item = ET.SubElement(channel, "item")
+    ET.SubElement(item, "pubDate").text = formatdate()
     ET.SubElement(item, "title").text = title
     ET.SubElement(item, "description").text = title
     enc = ET.SubElement(item, "enclosure")
