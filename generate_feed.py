@@ -30,4 +30,27 @@ rss = ET.Element("rss", version="2.0")
 rss.set("xmlns:itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
 channel = ET.SubElement(rss, "channel")
 ET.SubElement(channel, "title").text = "deep divinations, Deepdivenation"
-ET.SubElement(channel, "link").text = "https://www.d
+ET.SubElement(channel, "link").text = "https://www.dropbox.com"
+ET.SubElement(channel, "description").text = "Deep divinations inside a deepdive Nation"
+ET.SubElement(channel, "language").text = "en"
+
+for i, (title, url) in enumerate(items, 1):
+    ext = url.split("?")[0].split(".")[-1].lower()
+    mime = "audio/mpeg"
+    url = url.replace("dl=0", "dl=1")
+    guid = f"jakso-{i:03d}"
+    item = ET.SubElement(channel, "item")
+    ET.SubElement(item, "pubDate").text = old_dates.get(guid, formatdate())
+    ET.SubElement(item, "title").text = title
+    ET.SubElement(item, "description").text = title
+    enc = ET.SubElement(item, "enclosure")
+    enc.set("url", url)
+    enc.set("length", "0")
+    enc.set("type", mime)
+    ET.SubElement(item, "guid").text = guid
+
+xml_str = minidom.parseString(ET.tostring(rss, encoding="unicode")).toprettyxml(indent="  ")
+xml_str = "\n".join(xml_str.split("\n")[1:])
+with open("feed.xml", "w", encoding="utf-8") as f:
+    f.write(xml_str)
+print("feed.xml generoitu.")
