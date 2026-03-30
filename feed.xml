@@ -96,11 +96,18 @@
       <guid>ensi-yritys-cohenilta-saada-tolkkua-maimonideen</guid>
     </item>
     <item>
-      <pubDate>Fri, 27 Mar 2026 05:40:30 -0000</pubDate>
-      <title>Nyt mennään huonosti kantin läpi, heegel!</title>
-      <description>Nyt mennään huonosti kantin läpi, heegel!</description>
+      <pubDate>Mon, 30 Mar 2026 12:31:06 -0000</pubDate>
+      <title>9.1 Nyt mennään huonosti kantin läpi, heegel!</title>
+      <description>9.1 Nyt mennään huonosti kantin läpi, heegel!</description>
       <enclosure url="https://www.dropbox.com/scl/fi/2tvodhu7cs3rkjhtijzgz/Hegel_and_the_tragedy_of_Antigone.m4a?rlkey=smsw7ujts3pgqqkoo6kybnhdt&amp;dl=1" length="0" type="audio/mpeg"/>
-      <guid>nyt-mennään-huonosti-kantin-läpi,-heegel!</guid>
+      <guid>9.1-nyt-mennään-huonosti-kantin-läpi,-heegel!</guid>
+    </item>
+    <item>
+      <pubDate>Mon, 30 Mar 2026 12:31:06 -0000</pubDate>
+      <title>9.2 Nyt seuraavaa klaumi nilkiää uudestaan, heegel</title>
+      <description>9.2 Nyt seuraavaa klaumi nilkiää uudestaan, heegel</description>
+      <enclosure url="https://www.dropbox.com/scl/fi/k81x47y3zwsnw85w4icfq/Hegel_and_the_Social_Tragedy_of_Antigone.m4a?rlkey=bxg798z320lpk2arp8ogpwso7&amp;st=xz1f1ap7&amp;dl=1" length="0" type="audio/mpeg"/>
+      <guid>9.2-nyt-seuraavaa-klaumi-nilkiää-uudestaan,-heegel</guid>
     </item>
   </channel>
 </rss>
