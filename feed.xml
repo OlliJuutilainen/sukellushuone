@@ -214,5 +214,12 @@
       <enclosure url="https://www.dropbox.com/scl/fi/ecmwgy03fwecm52d2ywg1/kokeile-osia.mp3?rlkey=3txumvh59nb1g8cjc0yhe291m&amp;dl=1" length="0" type="audio/mpeg"/>
       <guid>kokeile-osia</guid>
     </item>
+    <item>
+      <pubDate>Mon, 24 Aug 2026 00:09:18 -0000</pubDate>
+      <title>Peetu laulaa</title>
+      <description>Peetu laulaa</description>
+      <enclosure url="https://www.dropbox.com/scl/fi/uaq4u4zyds4r6m01f653q/peetu-laulaa.mp3?rlkey=nww8iuev416msu5hnzhilwkd1&amp;dl=1" length="0" type="audio/mpeg"/>
+      <guid>peetu-laulaa</guid>
+    </item>
   </channel>
 </rss>
